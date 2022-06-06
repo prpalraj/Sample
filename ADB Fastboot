@@ -1,0 +1,17 @@
+# ADB Fastboot
+Device boot mode. 
+adb pull from device to PC. Command: adb pull /data/local/tmp (File path)
+---------------------------------------------------------------------------
+# YJDownloaderV2
+Device Flash mode. 
+Open YJ Downloader: Select UFS Provision 
+Browse : prog_firehose_ddr.elf
+Load XML :  provision_ufs_default.xml
+Download : 100%
+---------------------------------------------------------------------------
+Device Flash mode. (No Change) 
+Device Power OFF: Select UFS. 
+Browse : prog_firehose_ddr.elf
+Load XML :  rawprogram0 ~ 5.xml
+Download: 100%
+----------------------------------------------------------------------------
